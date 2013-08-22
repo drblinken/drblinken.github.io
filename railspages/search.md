@@ -8,7 +8,7 @@ title: rails pages | search
 To add search functionality to your app, you need the following:
 
 * a search form (pointing to )
-* a route (pointing to) 
+* a route (pointing to)
 * a controller action performing the search and redirecting to a view showing the results
 
 Decide where the search should happen. The easiest thing is to add it to an existing index page. In the following example, I'll add a search to the index of a resource called "survey".
@@ -16,18 +16,18 @@ Decide where the search should happen. The easiest thing is to add it to an exis
 ## Search Form
 
 1. add a test: [see commit](https://github.com/railsclass/SearchExample/commit/b987c8d5bcde3bed8bb5a1e258b7df3d9ff3816e)
-2. add the search form itself: 
+2. add the search form itself:
 
 
     <%= form_tag surveys_path, :method => 'get' do %>
-        <%= text_field_tag :search, params[:search] %>
+        <%= text_field_tag :search, params\[:search\] %>
         <%= submit_tag "Search", :name => nil %>
     <% end %>
 
 form_tag is an ActionView Helper; you can find the Doc here: [form_tag](http://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html#method-i-form_tag)
 
 
-## The Route 
+## The Route
 is already there if you use the index action for the search. Otherwise create it in config/routes.rb and change surveys_path in the form to the appropriate path.
 
 ## Controller Action Performing the Search
@@ -45,8 +45,8 @@ This is just one simple example for an integration test for the search. You migh
 ### and the implementation:
 
 In the controller index action just delegate to the model:
-    
-    @surveys = Survey.search(params[:search])
+
+    @surveys = Survey.search(params\[:search\])
 
 and in the model:
 

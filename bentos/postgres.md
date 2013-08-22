@@ -8,7 +8,7 @@ Database management
 ====================
 
 
-createdb <dbname>
-dropdb <dbname>
+    createdb <dbname>
+    dropdb <dbname>
 
 

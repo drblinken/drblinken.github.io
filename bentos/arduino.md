@@ -67,7 +67,7 @@ where n is the number of your board, e.g. for B4 as in the picture above you wou
 
       #define BOARD4
 
-LEDs: use the int array  int pins[] which lists the pins from the lower right
+LEDs: use the int array  int pins\[\] which lists the pins from the lower right
 corner to the upper left like this:
 
      11 10 09 08

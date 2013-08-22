@@ -24,13 +24,13 @@ I then added the current junit and hamcrest-all version dependencys to the pom.
 [MVNRepository]() shows the current versions and provides copy-and-paste dependency
 declarations, e.g. for [hamcrest](http://mvnrepository.com/artifact/org.hamcrest/hamcrest-all/1.3)
 
-     <dependency>
-       <groupId>org.hamcrest</groupId>
-       <artifactId>hamcrest-all</artifactId>
-       <version>1.3</version>
-     </dependency>
+     &lt;dependency&gt;
+       &lt;groupId&gt;org.hamcrest&lt;/groupId&gt;
+       &lt;artifactId&gt;hamcrest-all&lt;/artifactId&gt;
+       &lt;version&gt;1.3&lt;/version&gt;
+     &lt;/dependency&gt;
 
-which needs to go into the <dependencies> section of the pomfile pom.xml
+which needs to go into the &lt;dependencies&gt; section of the pomfile pom.xml
 
 (Compare that to
 

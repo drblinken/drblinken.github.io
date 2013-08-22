@@ -37,8 +37,7 @@ Atmel 1031 tiny 85
 Diavolino & LolShield
 ===
 
-[Instruction]
-(http://s3.amazonaws.com/evilmadscience/KitInstrux/diavolino_instrux.pdf)
+[Instruction](http://s3.amazonaws.com/evilmadscience/KitInstrux/diavolino_instrux.pdf)
 [Short Reference Card](http://s3.amazonaws.com/evilmadscience/KitInstrux/Diavolino_quickinstrux.pdf)
 
 Arduino software:
