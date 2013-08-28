@@ -15,7 +15,8 @@ title: Arduino
 * [Informatica Feminale 2013](http://www.informatica-feminale.de)
 * [Informatica-Programm](http://www.informatica-feminale.de/Sommer2013/lib/ajax/course.php?courseId=503)
 * [Arduino](http://arduino.cc)
-
+* [C++ Reference](http://www.cplusplus.com/reference/)
+* [C++ Tutorial](http://www.cplusplus.com/doc/tutorial/)
 ## Agenda & Tentative Schedule
 
 
@@ -135,13 +136,15 @@ This is only a suggestion, though - if you'd rather work on your own project, go
 Check out project blinkenlights - <a href="http://blinkenlights.net/project"> http://blinkenlights.net/project </a> - at least watch the video <a href="http://blinkenlights.net/project/videos">http://blinkenlights.net/project/videos</a> to get an idea about what the project blinkenlights was and what you could have done with a BlinkenLightsMovie back in 2001.
 
 This exercise is about playing blinkenlights movies in BLM format on the arduino and the 12led shield by sending a movie file to the Arduino which it then stores and plays in a loop. Reading a file in and switching the according LEDs on and off doesn't seem to be a big issue. But there are two mayor obstacles: First, the Arduino doesn't have a file system. Second, it has very restricted memory available, so we want to store the file in a very compressed format.
-<h2>Preparation</h2>
-<ol>
-  <li>Have a look at the Blinkenlights Movie Format: <a href="http://oldwiki.blinkenarea.org/bin/view/Blinkenarea/BlinkenLightsMovie">http://oldwiki.blinkenarea.org/bin/view/Blinkenarea/BlinkenLightsMovie</a></li>
-  <li>Update your Knowledge about Bitshift Operators. How can you pack two bytes into an two-byte integer? How four nibbles? How can you determine if the nth bit is set in an byte or integer? see <a href="http://arduino.cc/en/Reference/Bitshift">http://arduino.cc/en/Reference/Bitshift</a></li>
-  <li>If you haven't already done so for debugging the prior exercise, read about serial communication on the Arduino. <a href="http://arduino.cc/en/Reference/Serial">http://arduino.cc/en/Reference/Serial</a></li>
-  <li>Design a State Machine which parses an BLM file byte by byte: you will have an initial state switching to the "reading delay" state when an @ is read etc.</li>
-</ol>
+
+## Preparation
+
+* Have a look at the Blinkenlights Movie&nbsp;Format: <br> [http://oldwiki.blinkenarea.org/bin/view/Blinkenarea/BlinkenLightsMovie](http://oldwiki.blinkenarea.org/bin/view/Blinkenarea/BlinkenLightsMovie)
+* Update your Knowledge about Bitshift Operators. How can you pack two bytes into an two-byte integer? How four nibbles? How can you determine if the nth bit is set in an byte or integer? see <a href="http://arduino.cc/en/Reference/Bitshift">http://arduino.cc/en/Reference/Bitshift</a></li>
+* If you haven't already done so for debugging the prior exercise, read about serial communication on the Arduino. <a href="http://arduino.cc/en/Reference/Serial">http://arduino.cc/en/Reference/Serial</a>
+* Design a State Machine which parses an BLM file byte by byte: you will have an initial state switching to the "reading delay" state when an @ is read etc.
+
+
 ## Playing BLM files
 For playing BLM files on the Arduino, we will first compress them and send the compressed version to the Arduino, to make the processing on the Arduino fast enough to not loose any sent data. This is a lot of work, so you might want to split up and have one person working on the Arduino part, and the other on the file compression. Check out the section about "BLM Compression" below.
 

@@ -9,7 +9,8 @@ Bentosheets
 ===========
 
 These are "cheat sheets" about different technical topics.
-* [Arduino Workshop @ Informatica Feminale 2013]({{ site.baseurl }}bentos/arduino-if2013.html)* [Arduino Workshop @ 29C3]({{ site.baseurl }}bentos/arduino.html)
+* [Arduino Workshop @ Informatica Feminale 2013]({{ site.baseurl }}bentos/arduino-if2013.html)
+* [Arduino Workshop @ 29C3]({{ site.baseurl }}bentos/arduino.html)
 * [Java Intro]({{ site.baseurl }}bentos/java.html)
 * [Git]({{ site.baseurl }}bentos/git.html)
 * [Cucumber]({{ site.baseurl }}bentos/cucumber.html)
