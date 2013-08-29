@@ -1,6 +1,6 @@
 ---
 layout: bento
-title: Arduino
+title: Arduino@IF2013
 ---
 
 # Programming Arduino Workshop @ Informatica Feminale 2013
