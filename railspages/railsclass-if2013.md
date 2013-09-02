@@ -29,6 +29,7 @@ or create an app including a bit of domain logic, using a gem and maybe even an 
 ## Mo  2.9.  11.00-12.30
 - Introduction (30min)
 - Rails Dash + The Console(30min)
+    [The Kanu App done in class](https://github.com/railsclass/if2013-kanu)
 - Where to look things up (15min)
 - project ideas(10min)
 
