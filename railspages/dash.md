@@ -56,5 +56,10 @@ e.g.
 
     http://localhost:3000/einsetzstellen
 
-Play with it a bit! Then, have a look at the
+Play with it a bit!
+You can see the generated pages/routes by calling
+
+    bash> rake routes
+
+Then, have a look at the
 [Console]({{ site.baseurl }}railspages/console.html).
