@@ -43,16 +43,19 @@ or create an app including a bit of domain logic, using a gem and maybe even an 
 
 
 ## Di  3.9.  09.00-10.30
-- input: rails migrations (add km to kanu)
+- input: rails migrations (add km to kanu, [commit](https://github.com/railsclass/if2013-kanu/commit/07cb9b35a291dfa2ad0f777161d3023eeeef5f92)) and associations (watercourse, [commit](https://github.com/railsclass/if2013-kanu/commit/a678dddd150e4f25f3c70b1c3b026d35dbb6b57a))
 - implement first story
 
 ## Di  3.9.  11.00-12.30
-- input: add functionality (select fluss, sort by km)
+- input: add functionality (
+[sort by km](https://github.com/railsclass/if2013-kanu/commit/d777df91f3afdd9e52f1a412230cd0b41f9e767c),
+[add vote](https://github.com/railsclass/if2013-kanu/commit/a9d27fed95dd968982604ddf1644a8398c059ac3),
+[search text](https://github.com/railsclass/if2013-kanu/commit/68bfce920956ee04dafca1325dfd67ab5fd7532a)
+)
 - second story
 
 ## Di  3.9.  14.00-16.30
-- input: using a gem
-- input: using an api
+- input: using a gem (see rails girls tutorial)
 - third story
 
 ## Mi  4.9.  09.00-10.30
