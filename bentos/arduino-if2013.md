@@ -22,7 +22,7 @@ title: Arduino@IF2013
 
 | Time |             |      | Content  |
 |:-----|:------------|-----:|:---------|
-| Mi   | 11.00-12.30 | 1.5  | Getting Started: Installation and first   blinking LED ||
+| Mi   | 11.00-12.30 | 1.5  | Getting Started: Installation and first   blinking LED |
 | Do   | 09.00-12.30 | 3 | 12-LED Shields and Dice Library |
 | Do   | 14.00-15.30 | 1.5| Dice Library Extensions|
 | Fr   | 09.00-12.30 | 3 | TBD |
