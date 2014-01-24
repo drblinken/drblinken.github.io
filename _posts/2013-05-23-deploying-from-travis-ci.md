@@ -6,6 +6,13 @@ title: Deploying to Heroku from Travis CI
 Deploying to Heroku from Travis CI
 ===========
 
+Update:
+-----------
+This blog post is outdated, Travis-CI has provided their own solution:
+
+[http://blog.travis-ci.com/2013-07-09-introducing-continuous-deployment-to-heroku/](http://blog.travis-ci.com/2013-07-09-introducing-continuous-deployment-to-heroku/)
+
+
 Today, I wanted to complete our new project's continuous deployment with an automated deploy to heroku from travis ci.
 
 I decided to give Pete Hodgson's [heroku-headless gem](https://github.com/moredip/heroku-headless) a try, as it seems to be quite elegant. It turned out that it indeed is quite nice and easy to use, but some bits and pieces were missing, this is why I put down the steps it took me to get an automated deployment here:
