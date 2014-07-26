@@ -20,4 +20,6 @@ make rvm switch to the appropriate environment after cd'ing to the directory, e.
 
     rvm --ruby-version use 2.1.2@sinatra
 
+gemset needs to be created with gemset create first.
+
 

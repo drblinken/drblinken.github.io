@@ -8,11 +8,12 @@ Einige Notizen und Links zum Kajakfahren.
 * [Freie Tonne](http://www.freietonne.de/garmin-gpi/gpi-export.php)
 
 Allg. Informationen
-========
+=========================
+
 * [Elwis](https://www.elwis.de/)
 * [Schifffahrtsregeln für Kanufahrer](http://www.kanufahrer.de/schifffahrtsz_.html)
-
 * [Flussinfo.net](http://www.flussinfo.net)
+
 Karten
 ========
 
