@@ -1,5 +1,5 @@
 ---
-layout: bento
+layout: post
 title: Come Teach Web Technology!
 ---
 
