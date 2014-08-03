@@ -11,7 +11,7 @@ I love the ruby community for it's great open diverse learning culture, among it
 
 * Practical Project: Our Students have to do a semester-long project, that is 4-6 students working on a project - [here are some examples of the last terms](http://imi-bachelor.htw-berlin.de/studieren/projekte/showtime-im-sommersemester-2014/) - contact me if you have an idea what could be accomplished as a project.
 
-* Instructor for Web Technology in our Master's Programme: currently we're missing an Instructor "Lehrbeauftragter" for our class Web Technology.
+* Instructor for Web Technology in our Master's Programme: currently we're missing an Instructor ("Lehrbeauftragter") for our class Web Technology.
 
 If you're interested in any of this, come speak to me during Eurucamp - I'll be around till the roundup this afternoon, and some of the organizers know me (like PragTob with his wonderful green T-Shirt or Dajana) and might
 be able to point me out to you.
@@ -20,7 +20,7 @@ And, everything can be done in English, in fact we would love to have more engli
 
 Cheers
 
-Béla / DrBlinken
+Béla / @drblinken
 
 Some Links
 
