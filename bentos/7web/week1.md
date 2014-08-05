@@ -54,3 +54,58 @@ Templating languages: erb, slim (a bit like haml but cleaner), mustache (with {}
 
 Does work with slim, apparently not with mustache, maybe because it's not known to Sinatra? [http://www.sinatrarb.com/contrib/respond_with.html](http://www.sinatrarb.com/contrib/respond_with.html)
 
+Week 1, Day 3
+----
+### Self-Study
+
+#### Find:
+
+* [Documentation for finding a custom route matcher](http://www.sinatrarb.com/intro.html#Custom%20Route%20Matchers)
+* Real-World Apps that use Sinatra [are listed on the sinatra page](http://www.sinatrarb.com/wild.html), Travis, LinkedIn,
+
+* [Pedro Belo](https://pedro.herokuapp.com/past/2012/9/12/on_rails_sinatra_and_picking_the_right_tool_for_the_job/) writes about when to use Rails (Web App) and when Sinatra (API); and makes a point that maybe you shouldn't mix the two in one application.
+
+#### Do:
+
+* create and retrieve bookmarks with tags with curl:
+in /sinatra/validation
+
+    curl -d "url=http://xxx.de&title=INFRA&tagsAsString=A,B,C" http://localhost:4567/bookmark
+
+    curl http://localhost:4567/bookmarks/A/B
+
+    curl -i -H "Accept: application/json" http://localhost:4567/bookmarks
+
+
+
+
+
+* write test to verify updating of bookmarks with tags: Already present:
+"Bookmarking App creates and updates a bookmark with tags"
+
+* add tag support to the view templates of your choice.
+
+...learned more about curl
+
+Dump Headers
+
+    curl -D headers http://localhost:4567
+
+send accept type
+
+    curl -H "Accept: application/json" http://localhost:4567/bookmarks
+
+and get header info
+
+    curl -i -H "Accept: application/json" http://localhost:4567/bookmarks
+
+more to copy
+
+   curl  -H "Accept: text/html" http://localhost:4567/bookmarks
+-H "Accept: application/json"
+
+- run a single example in rspec
+
+    rspec app_test.rb -e "gets a single bookmark in JSON"
+
+Added Capybara, see [http://blog.orenyk.com/2014/03/11/testing-sinatra-apps-with-rspec-and-capybara/](http://blog.orenyk.com/2014/03/11/testing-sinatra-apps-with-rspec-and-capybara/)
