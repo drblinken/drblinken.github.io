@@ -41,9 +41,10 @@ which REST method is missing? Probably the one that gets a single bookmark / fin
 #### Do:
 
 * Set up a simple CanJS page with an observe. Change the observe in your browser's JavaScript constole and see the view update itself automatically.
+see [https://github.com/drblinken/7web/blob/master/canjs/public/simple.html](https://github.com/drblinken/7web/blob/master/canjs/public/simple.html)
 * Experiment with CanJS on jsFiddle withthe CanJS jQuery Template:
 [http://jsfiddle.net/qYdwR/](http://jsfiddle.net/qYdwR/)
-
+    * forked the fiddle to [http://jsfiddle.net/drblinken/5C2u6/](http://jsfiddle.net/drblinken/5C2u6/)
 
 Week 2, Day 2
 --------------------------
