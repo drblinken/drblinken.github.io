@@ -15,8 +15,6 @@ Week 2, Day 1
 
 * [Manipulation](http://api.jquery.com/category/manipulation/) shows more things you can to with the jQuery object.
 
-###
-
 ### Source Code
 
 Define a Model: [https://github.com/drblinken/7web/blob/master/canjs/public/app/base/app.js](https://github.com/drblinken/7web/blob/master/canjs/public/app/base/app.js) -
@@ -51,15 +49,30 @@ Week 2, Day 2
 
 ### Source Code
 
+Start:
 
+* start sinatra app:
 
-### Links
+        .../7web/canjs (master)$ ruby app.rb
+
+* open example: [http://localhost:4567/example/base](http://localhost:4567/example/base)
 
 ### Self-Study
 
 #### Find:
+* Documentation: probably this, [http://canjs.com/docs/can.Control.html](http://canjs.com/docs/can.Control.html), but skipped
+
 #### Do:
-## Urls to open
+* Experiment (skipped)
+* why is bind(this) needed? - instead of
+bookmark.bind("destroyed",this.clearForm)
+    - this is a call to function.bind - although it seems to work without it.
+[see this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind
+)
+* change bookmark list: use icons for edit and delete
+    * [icon source](https://www.iconfinder.com/iconsets/flat-ui-icons-24-px)
+    * just included icons and used the same css classes (edit delete) in [bookmark_list.mustache](https://github.com/drblinken/7web/blob/master/canjs/public/app/base/bookmark_list.mustache)
+
 
 Week 2, Day 3
 --------------------------
